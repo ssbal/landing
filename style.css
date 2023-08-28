@@ -156,6 +156,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
 
   padding: 30px 60px;
 }
