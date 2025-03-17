@@ -82,7 +82,7 @@
 }
 
 .hero .container .right {
-  background: red;
+  background: #1f2937;
 }
 
 .hero .container .right img {
@@ -108,20 +108,23 @@
   margin: 0 auto;
 
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
 }
 
 .testimonials .testimonial {
-  width: 250px;
+  width: 200px;
   overflow: hidden;
   margin-top: 40px;
 }
 
 .testimonials .testimonial img {
   display: inline-block;
-  width: 100%;
+  width: 200px;
   border-radius: 15px;
+  height: 200px;
+  background-color: #1f2937;
 }
 
 .testimonials .testimonial p {
