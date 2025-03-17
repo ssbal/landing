@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -61,6 +61,7 @@ body {
 
 .hero .container .left h2 {
   font-size: 60px;
+  font-weight: 900;
 }
 
 .hero .container .left p {
@@ -91,4 +92,39 @@ body {
   display: block;
   height: 400px;
   width: 100%;
+}
+
+.info {
+  padding: 50px 0;
+}
+
+.info h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.testimonials {
+  margin-top: 40px;
+
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.testimonials .testimonial {
+  width: 250px;
+  overflow: hidden;
+}
+
+.testimonials .testimonial img {
+  display: inline-block;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.testimonials .testimonial p {
+  text-align: center;
+  margin-top: 10px;
 }
