@@ -198,3 +198,19 @@
   background: #f9faf8;
   color: #3882f6;
 }
+
+.footer {
+  background: #1f2937;
+  padding: 40px 0;
+}
+
+.footer p {
+  color: #f9faf8;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.footer a:hover {
+  color: #3882f6;
+}
