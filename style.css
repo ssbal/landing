@@ -37,3 +37,58 @@ body {
 .intro ul a:hover {
   color: #3882f6;
 }
+
+.hero {
+  background: #1f2937;
+  color: #f9faf8;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.hero .container {
+  margin: 0 auto;
+  width: 1280px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.hero .container > div {
+  flex: 1;
+}
+
+.hero .container .left h2 {
+  font-size: 60px;
+}
+
+.hero .container .left p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.hero .container .left a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
+.hero .container .left a:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+
+.hero .container .right {
+  background: red;
+}
+
+.hero .container .right img {
+  display: block;
+  height: 400px;
+  width: 100%;
+}
